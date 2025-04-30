@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background:url(pexels-henry-&-co-1939485.jpg) ;
+     height: 100vh;
+     background-size: 100% 100%; 
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgb(91, 125, 171);
+}
+.navbar .logo{
+     display: inline-block;
+     margin-left: 50px;
+     margin-top: 20px;
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.navbar ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 8px;
+   margin-top: 20px;
+   
+}
+
+
+
+.navbar ul{
+ float:right;
+ margin-right: 20px;
+   
+
+}
+.navbar .logo{
+    display:inline-block;
+    margin-left:50px;
+    margin-top:20px ;
+}
+.navbar ul li a{
+  font-size: 20px;
+  color: rgb(0, 0, 0);  
+  text-decoration: none;
+  padding: 6px 13px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar ul li :active,
+.navbar ul li a:hover{
+    background-color: cadetblue;
+    border-radius: 9px;
+}
+.container .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:fantasy ;
+    user-select :none;
+}
+    .center h1{
+        color: black;
+        font-size: 65px;
+        font-weight: bold;
+        width: 900px;
+        text-align: center;
+
+    }
+    .center h2{
+        color: black;
+        font-size: 65px;
+        font-weight: bold;
+        width: 850px;
+        margin-top: 9px;
+        text-align: center;
+
+    }
+    .center .buttons{
+  margin: 35px 250px;
+   }
+   .buttons button{
+    height: 50px;
+    width:  170px;
+    font-size: 20px;
+    color: brown;
+    background-color: rgb(38, 55, 141);
+    border: solid 1px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+   }
+
+   .buttons button:hover{
+   background: #fff;
+
+   }
