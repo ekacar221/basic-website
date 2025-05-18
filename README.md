@@ -11,6 +11,6 @@ It includes a navigation bar, a centered welcome message, and a styled backgroun
 - Navigation menu
 - Styled buttons
 
-## Author
+# Author
 
 Büşra Kaçar
